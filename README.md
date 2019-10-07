@@ -16,7 +16,7 @@ The script uses the following Python 3 Modules:
 
 # Usage
 
-Simply call the Python-Skript:
+Simply call the Python-Script:
 
 ```
 check_checkpoint -i <ipv4Address> -c <communityString> -m <mode> [-s <cluster-state>]
