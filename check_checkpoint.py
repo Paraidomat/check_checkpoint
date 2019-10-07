@@ -416,7 +416,7 @@ def hardware():
         for key, value in fan_status_table_row:
             key = int(str(key).split(".")[-2]) - 1
             fan_name = str(fan_name_table[key][0][-1]).replace(" ", "_")
-            fan_name = str(nam_name).replace("\t", "_")
+            fan_name = str(fan_name).replace("\t", "_")
             if value != 0:
                 exitstatus_l.append(2)
                 broken_fans_l.append(fan_name)
